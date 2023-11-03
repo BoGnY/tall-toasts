@@ -10,6 +10,12 @@ use Illuminate\Support\Facades\File;
 
 /**
  * @see \Usernotnull\Toast\Toast
+ *
+ * @method static \Usernotnull\Toast\Notification danger(string $message, string $title = null)
+ * @method static \Usernotnull\Toast\Notification debug(mixed $message, string $title = null)
+ * @method static \Usernotnull\Toast\Notification info(string $message, string $title = null)
+ * @method static \Usernotnull\Toast\Notification success(string $message, string $title = null)
+ * @method static \Usernotnull\Toast\Notification warning(string $message, string $title = null)
  */
 class ToastManager extends Facade
 {
